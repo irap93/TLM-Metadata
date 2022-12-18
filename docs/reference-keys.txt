@@ -1,7 +1,7 @@
 fig:rname
 fig:unnamed-chunk-1
 fig:msupas
-fig:unnamed-chunk-2
+fig:msutl
 fig:drift
 fig:bushfiles
 fig:msucatfile
@@ -23,7 +23,7 @@ fig:lotekdata
 fig:djimic
 fig:micafiles
 fig:micadata
-fig:unnamed-chunk-3
+fig:unnamed-chunk-2
 fig:mesofiles
 fig:obsbehfile
 fig:soilfiles
@@ -31,15 +31,15 @@ fig:davis
 fig:weatherfiles
 fig:weatherdata
 fig:blankpas
+fig:unnamed-chunk-3
 fig:unnamed-chunk-4
-fig:unnamed-chunk-5
 fig:cattlefiles
 fig:noblewtdata
 fig:nobleddmthouse
 fig:nobleddmtcollar
 fig:nobleddmtfiles
 fig:nobleddmtdata
-fig:unnamed-chunk-6
+fig:unnamed-chunk-5
 fig:nobleforagefiles
 fig:nobleforagedata
 fig:mesodata
@@ -88,3 +88,6 @@ aiming-for-the-optimum-parsons_aiming_2022
 walk-over-weigh
 accelerometer-methods
 professional-presentations
+contacts
+scientists
+graduate-research-assistants
