@@ -142,7 +142,7 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="4.1" data-path="dissertation-projects.html"><a href="dissertation-projects.html#chapter-1---tag-youre-it"><i class="fa fa-check"></i><b>4.1</b> Chapter 1 - Tag you’re it</a></li>
 <li class="chapter" data-level="4.2" data-path="dissertation-projects.html"><a href="dissertation-projects.html#chapter-2---categorize-accelerometer-signals-in-grazing-cattle"><i class="fa fa-check"></i><b>4.2</b> Chapter 2 - Categorize accelerometer signals in grazing cattle</a></li>
-<li class="chapter" data-level="4.3" data-path="dissertation-projects.html"><a href="dissertation-projects.html#chapter-3-aiming-for-the-optimum-parsons_aiming_2022"><i class="fa fa-check"></i><b>4.3</b> <span>Chapter 3 Aiming for the Optimum</span> <span class="citation">(<span>Parsons et al. 2022</span>)</span></a></li>
+<li class="chapter" data-level="4.3" data-path="dissertation-projects.html"><a href="dissertation-projects.html#chapter-3-aiming-for-the-optimum-parsons_aiming_2022"><i class="fa fa-check"></i><b>4.3</b> Chapter 3 Aiming for the Optimum <span class="citation">(Parsons et al. 2022)</span></a></li>
 <li class="chapter" data-level="4.4" data-path="dissertation-projects.html"><a href="dissertation-projects.html#chapter-4---walk-over-weigh"><i class="fa fa-check"></i><b>4.4</b> Chapter 4 - Walk over Weigh</a></li>
 <li class="chapter" data-level="4.5" data-path="dissertation-projects.html"><a href="dissertation-projects.html#professional-presentations"><i class="fa fa-check"></i><b>4.5</b> Professional Presentations</a></li>
 </ul></li>
@@ -192,10 +192,12 @@ Figure 3.2: The timeline laid out below shows the general sequence of events, bo
 <div id="initial-files" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Initial Files<a href="noble-grazing-ecology.html#initial-files" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><img src="Pictures/Noble_files.png" alt=" File organization for the field season from the Noble Research Center" />
-<em>Files </em>
-- Planning - Folder with initial collar files, Drone permission forms, Houseing forms, and initial pasture maps. Also included are proposed protocols and sampling dates
-- RawData - The raw data and lightly processed data files collected from all devices throughout the duration of the trial. Never edit, move, or change these files. If working on these files, make sure to work from a saved copy in a project specific folder.
-- Travel - Travel documents required for the COVID Pandemic</p>
+<em>Files </em></p>
+<ul>
+<li>Planning - Folder with initial collar files, Drone permission forms, Houseing forms, and initial pasture maps. Also included are proposed protocols and sampling dates</li>
+<li>RawData - The raw data and lightly processed data files collected from all devices throughout the duration of the trial. Never edit, move, or change these files. If working on these files, make sure to work from a saved copy in a project specific folder.</li>
+<li>Travel - Travel documents required for the COVID Pandemic</li>
+</ul>
 </div>
 <div id="bushnel" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Bushnel<a href="noble-grazing-ecology.html#bushnel" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -208,15 +210,27 @@ Figure 3.2: The timeline laid out below shows the general sequence of events, bo
 <img src="Pictures/Noblecattlefiles.jpg" alt="" />
 <p class="caption">Figure 3.4:  Files for the cattle weight data</p>
 </div>
-<p><strong>Files</strong> (Figure <a href="noble-grazing-ecology.html#fig:cattlefiles">3.4</a>)<br />
-* Datasheets - Folder containing pictures of datasheets collected chuteside.<br />
-* 1 Process_ChuteWts.R - Rscript used to clean chute weights from the excel workbook<br />
-* 2 Growth_model.chutewts.R - Modeling cattle growth weights. First stab at looking at growth curves<br />
-* Cattle for Dan.xlsx - Excell workbook used to report cattle weights to Dan, a scientists at the Noble Research Institute<br />
-* Cattle.Worksheets.xlsx - Excell workbook containing the digitized chuteside data<br />
-* Chute_wts.csv - combined raw data file of raw chute weights. Use this workbook for any analysis<br />
-* 1. Process_ChuteWts.R - Combine all chuteside data into one dataset
-* 2. Growth_model.chute.wts.R - Used to plot cattle growth curves.</p>
+<p><strong>Files</strong> (Figure <a href="noble-grazing-ecology.html#fig:cattlefiles">3.4</a>)</p>
+<ul>
+<li>Datasheets - Folder containing pictures of datasheets collected chuteside.<br />
+</li>
+<li>1 Process_ChuteWts.R - Rscript used to clean chute weights from the excel workbook<br />
+</li>
+<li>2 Growth_model.chutewts.R - Modeling cattle growth weights. First stab at looking at growth curves<br />
+</li>
+<li>Cattle for Dan.xlsx - Excell workbook used to report cattle weights to Dan, a scientists at the Noble Research Institute<br />
+</li>
+<li>Cattle.Worksheets.xlsx - Excell workbook containing the digitized chuteside data<br />
+</li>
+<li>Chute_wts.csv - combined raw data file of raw chute weights. Use this workbook for any analysis<br />
+</li>
+<li><ol style="list-style-type: decimal">
+<li>Process_ChuteWts.R - Combine all chuteside data into one dataset</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>Growth_model.chute.wts.R - Used to plot cattle growth curves.</li>
+</ol></li>
+</ul>
 <div class="figure"><span style="display:block;" id="fig:noblewtdata"></span>
 <img src="Noble_Grazingecology/RawData/Metadata/Collection%20Plots/Chute%20weights.png" alt="" />
 <p class="caption">Figure 3.5:  The number of chute weights collected over the duration of the trial</p>
@@ -239,59 +253,148 @@ Figure 3.2: The timeline laid out below shows the general sequence of events, bo
 <img src="Pictures/Nobleddmtfiles.jpg" alt="" />
 <p class="caption">Figure 3.8:  DDMT files on the raw data drive</p>
 </div>
-<p><strong>Files</strong> Figures <a href="noble-grazing-ecology.html#fig:nobleddmtfiles">3.8</a><br />
-* Cattle_pics - Pictures of the accelerometer on the animal.<br />
-* DDMT.raw - Folders containing raw files from each deployment.<br />
-* MetaData - Metadata detailing information about DDMT deployment, issues, and processing Rscripts<br />
-* DD Info File.txt - Blank text file</p>
+<p><strong>Files</strong> Figures <a href="noble-grazing-ecology.html#fig:nobleddmtfiles">3.8</a></p>
+<ul>
+<li>Cattle_pics - Pictures of the accelerometer on the animal.<br />
+</li>
+<li>DDMT.raw - Folders containing raw files from each deployment.<br />
+</li>
+<li>MetaData - Metadata detailing information about DDMT deployment, issues, and processing Rscripts<br />
+</li>
+<li>DD Info File.txt - Blank text file</li>
+</ul>
 <p><img src="Noble_Grazingecology/RawData/Metadata/Collection%20Plots/DDMT.png" alt=" Data collection success over the duration of the Noble field season using the Daily Diary Accelerometers" />
-<strong>DDMT instructions</strong><br />
-1. Format SD Card<br />
-+ Format SD card by right clicking on the SD card and selecting format using FAT32 format – this takes a while.<br />
-2. Open DDMT and select command line generator<br />
-+ Generate a command line with options selected to not overwrite data<br />
-3. Create a text file, labeled “text.txt” on the SD card, paste the command line into the first line of the file in TextEdit<br />
-4. Click on a button to allocate text files of 2 gb each on SD card<br />
-+ Extract SD card, it is now formatted and ready for deployment<br />
-5. Select an accelerometer, in a sheet, record what SD card is deployed with what accelerometer.<br />
-6. Insert the SD card into the SD card slot on the accelerometer until a firm click is heard. Apply a small spot of hot glue to the back of the sd card to prevent falling out.<br />
-7. Plugin the battery, recording the exact time, UTC time, the battery is plugged in. Look for two bright yellow flashes and then observe closely for a light green flash, indicating the accelerometer is recording data.<br />
-8. Insert the accelerometer and the battery into the foam, place the foam into collar housing, and ensure it is waterproofed.<br />
-9. In an open area, calibrate the collar, recording the exact second, UTC time, calibration begins.<br />
-+ Holding the collar upright, oriented like it will be on the animal, push the collar directly out from your chest, then bring it abruptly back. Do this 5 times.<br />
-+ Holding collar upright, push out from chest and hold to count of 10.<br />
-+ Holding the collar upright, in front of your chest, move the collar side to side, first left, then right, five times.<br />
-+ Holding the collar upright in front of your chest, move the collar swiftly up and down, down, then up, five times.<br />
-+ Facing directly towards magnetic north, Rotate the collar end over end, pushing the top away from you, and begin to slowly spin in a circle, stopping in the original northerly direction.<br />
-+ Facing the northerly direction with the collar directly in front of your chest, rotate the collar around the Z axis which extends from the bottom of the collar to the top of the collar towards the sky. Continue rotating while slowly spinning around all points of the compass<br />
-+ Repeat points iv. and v.<br />
-+ Record conclusion of calibration<br />
-10. Deploy collar onto animal.<br />
-11. Recollect collar from animal<br />
-+ Record date and time. (might not hurt to do a second calibration, opportunity to log any time drift relative to the accelerometer time.)<br />
-12. Extract the SD card; save text files to database<br />
-13. Open DDMT &gt; select File to be analyzed &gt; set working directory &gt; Load first split<br />
-14. Display
-+ Select interested values<br />
-+ Graph Acceleration<br />
-+ Graph Geomagnatism<br />
-+ Graph VeDBA<br />
-+ Display overlay window<br />
-15. 3D controls<br />
-+ Rot’ correction<br />
-+ Apply rotation to whole dataset<br />
-16. Time/Date offsets<br />
-+ Enter Start date in Day, Month, Year format<br />
-+ Set time, using pre-recorded time for starting the accelerometer<br />
-17. Accel/mag detail/offsets<br />
-+ Find calibration in accelerometer dataset<br />
-+ Magnetometer offsets<br />
-+ Show 3D<br />
-+ Click 3rd from left box to activate geomag calibration<br />
-+ Click left alt right mouse click 2X to<br />
-18. Input/output<br />
-+ Filename – Deployment date_VID<br />
-+ Change suffix number to 1 for text 1, 500 for text 2</p>
+<strong>DDMT instructions</strong></p>
+<ol style="list-style-type: decimal">
+<li>Format SD Card<br />
+</li>
+</ol>
+<ul>
+<li>Format SD card by right clicking on the SD card and selecting format using FAT32 format – this takes a while.<br />
+</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Open DDMT and select command line generator<br />
+</li>
+</ol>
+<ul>
+<li>Generate a command line with options selected to not overwrite data<br />
+</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Create a text file, labeled “text.txt” on the SD card, paste the command line into the first line of the file in TextEdit<br />
+</li>
+<li>Click on a button to allocate text files of 2 gb each on SD card<br />
+</li>
+</ol>
+<ul>
+<li>Extract SD card, it is now formatted and ready for deployment<br />
+</li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li>Select an accelerometer, in a sheet, record what SD card is deployed with what accelerometer.<br />
+</li>
+<li>Insert the SD card into the SD card slot on the accelerometer until a firm click is heard. Apply a small spot of hot glue to the back of the sd card to prevent falling out.<br />
+</li>
+<li>Plugin the battery, recording the exact time, UTC time, the battery is plugged in. Look for two bright yellow flashes and then observe closely for a light green flash, indicating the accelerometer is recording data.<br />
+</li>
+<li>Insert the accelerometer and the battery into the foam, place the foam into collar housing, and ensure it is waterproofed.<br />
+</li>
+<li>In an open area, calibrate the collar, recording the exact second, UTC time, calibration begins.<br />
+</li>
+</ol>
+<ul>
+<li>Holding the collar upright, oriented like it will be on the animal, push the collar directly out from your chest, then bring it abruptly back. Do this 5 times.<br />
+</li>
+<li>Holding collar upright, push out from chest and hold to count of 10.<br />
+</li>
+<li>Holding the collar upright, in front of your chest, move the collar side to side, first left, then right, five times.<br />
+</li>
+<li>Holding the collar upright in front of your chest, move the collar swiftly up and down, down, then up, five times.<br />
+</li>
+<li>Facing directly towards magnetic north, Rotate the collar end over end, pushing the top away from you, and begin to slowly spin in a circle, stopping in the original northerly direction.<br />
+</li>
+<li>Facing the northerly direction with the collar directly in front of your chest, rotate the collar around the Z axis which extends from the bottom of the collar to the top of the collar towards the sky. Continue rotating while slowly spinning around all points of the compass<br />
+</li>
+<li>Repeat points iv. and v.<br />
+</li>
+<li>Record conclusion of calibration<br />
+</li>
+</ul>
+<ol start="10" style="list-style-type: decimal">
+<li>Deploy collar onto animal.<br />
+</li>
+<li>Recollect collar from animal<br />
+</li>
+</ol>
+<ul>
+<li>Record date and time. (might not hurt to do a second calibration, opportunity to log any time drift relative to the accelerometer time.)<br />
+</li>
+</ul>
+<ol start="12" style="list-style-type: decimal">
+<li>Extract the SD card; save text files to database<br />
+</li>
+<li>Open DDMT &gt; select File to be analyzed &gt; set working directory &gt; Load first split<br />
+</li>
+<li>Display</li>
+</ol>
+<ul>
+<li>Select interested values<br />
+</li>
+<li>Graph Acceleration<br />
+</li>
+<li>Graph Geomagnatism<br />
+</li>
+<li>Graph VeDBA<br />
+</li>
+<li>Display overlay window<br />
+</li>
+</ul>
+<ol start="15" style="list-style-type: decimal">
+<li>3D controls<br />
+</li>
+</ol>
+<ul>
+<li>Rot’ correction<br />
+</li>
+<li>Apply rotation to whole dataset<br />
+</li>
+</ul>
+<ol start="16" style="list-style-type: decimal">
+<li>Time/Date offsets<br />
+</li>
+</ol>
+<ul>
+<li>Enter Start date in Day, Month, Year format<br />
+</li>
+<li>Set time, using pre-recorded time for starting the accelerometer<br />
+</li>
+</ul>
+<ol start="17" style="list-style-type: decimal">
+<li>Accel/mag detail/offsets<br />
+</li>
+</ol>
+<ul>
+<li>Find calibration in accelerometer dataset<br />
+</li>
+<li>Magnetometer offsets<br />
+</li>
+<li>Show 3D<br />
+</li>
+<li>Click 3rd from left box to activate geomag calibration<br />
+</li>
+<li>Click left alt right mouse click 2X to<br />
+</li>
+</ul>
+<ol start="18" style="list-style-type: decimal">
+<li>Input/output<br />
+</li>
+</ol>
+<ul>
+<li>Filename – Deployment date_VID<br />
+</li>
+<li>Change suffix number to 1 for text 1, 500 for text 2</li>
+</ul>
 </div>
 <div id="forage-and-pasture-1" class="section level2 hasAnchor" number="3.5">
 <h2><span class="header-section-number">3.5</span> Forage and Pasture<a href="noble-grazing-ecology.html#forage-and-pasture-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -346,11 +449,16 @@ www: www.jenquip.co.nz</p>
 <div id="mesonet" class="section level2 hasAnchor" number="3.7">
 <h2><span class="header-section-number">3.7</span> Mesonet<a href="noble-grazing-ecology.html#mesonet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Mesonet data was collected from the permanent station located just north of the study location. Data from both the Ardmore and Newport stations are saved. However, researchers should <strong>Use the Newport station data</strong> as it is closer to the study location. Oklahoma has a state of the art weather system known as the <a href="https://www.mesonet.org/index.php/weather/local/newp">Mesonet network</a>, and this negated the need for an onsite weather station.</p>
-<p><strong>Files</strong><br />
-* Mesonet_Ardmore - Folder containing data from the Ardmore Mesonet station<br />
-* Mesonet_Newport - Folder containing data from the Newport station located on the PDF facility<br />
-* 1.1.1-Summary Data.R - R script to do initial data processing on mesonet data by importing it into R<br />
-* Also included is a summary metadata file from the Mesonet website.</p>
+<p><strong>Files</strong></p>
+<ul>
+<li>Mesonet_Ardmore - Folder containing data from the Ardmore Mesonet station<br />
+</li>
+<li>Mesonet_Newport - Folder containing data from the Newport station located on the PDF facility<br />
+</li>
+<li>1.1.1-Summary Data.R - R script to do initial data processing on mesonet data by importing it into R<br />
+</li>
+<li>Also included is a summary metadata file from the Mesonet website.</li>
+</ul>
 <div class="figure"><span style="display:block;" id="fig:mesodata"></span>
 <img src="Noble_Grazingecology/RawData/Metadata/Collection%20Plots/Mesonet.png" alt="" />
 <p class="caption">Figure 3.13:  The Collection success of the Newport Weather station</p>
@@ -363,16 +471,26 @@ www: www.jenquip.co.nz</p>
 <img src="Noble_Grazingecology/RawData/Project_Pictures/IMG_2284.JPG" alt="" />
 <p class="caption">Figure 3.14:  The DJI Matrice 100 unmanned aerial vehicle and MicaSense MX multispectral camera used to map the study area</p>
 </div>
-<p><strong>The pilot will meet the following requirements:</strong><br />
-1. Pilot will hold a valid remote pilot certificate from the FAA<br />
-2. Pilot will be trained in operating the aircraft stated above, with prior experience in conducting flight operations.<br />
-3. Only one aircraft will be operated at one time<br />
-4. The pilot in command will be in a physical, mental condition prepared to collected quality data in accordance with safety guidelines and the protocol for this study.<br />
-5. The aircraft will weight less than 55 lbs. in accordance with FAA and NIR regulations<br />
-6. The aircraft will not be operated above 400 ft above ground level.<br />
-7. A visual line of sight will be maintained with the aircraft at all times.<br />
-8. Prior to take-off aircraft will be visually inspected for flight worthiness.<br />
-9. All flights will be logged in the pilots log book</p>
+<p><strong>The pilot will meet the following requirements:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Pilot will hold a valid remote pilot certificate from the FAA<br />
+</li>
+<li>Pilot will be trained in operating the aircraft stated above, with prior experience in conducting flight operations.<br />
+</li>
+<li>Only one aircraft will be operated at one time<br />
+</li>
+<li>The pilot in command will be in a physical, mental condition prepared to collected quality data in accordance with safety guidelines and the protocol for this study.<br />
+</li>
+<li>The aircraft will weight less than 55 lbs. in accordance with FAA and NIR regulations<br />
+</li>
+<li>The aircraft will not be operated above 400 ft above ground level.<br />
+</li>
+<li>A visual line of sight will be maintained with the aircraft at all times.<br />
+</li>
+<li>Prior to take-off aircraft will be visually inspected for flight worthiness.<br />
+</li>
+<li>All flights will be logged in the pilots log book</li>
+</ol>
 <p>See Figure <a href="noble-grazing-ecology.html#fig:nobleforagedata">3.12</a> for the number of successful drone flights.</p>
 </div>
 <div id="observed-behavior-1" class="section level2 hasAnchor" number="3.9">
@@ -424,21 +542,32 @@ www: www.jenquip.co.nz</p>
 </tr>
 </tbody>
 </table>
-<p><strong>Files</strong><br />
-* Durham - folder containing audio files, and transcriptiosn of animal behavior collected by Durham Norman<br />
-* Ira - folder containing audio files, and transcription of animal behavior collected by Ira Parsons<br />
-* Collar.obs.beh.csv - The master observed behavior file from both observers<br />
-* Obs.vect.csv - Matched accelerometer and observed behavior data from the vectronic accelerometer<br />
-* Obs.vect.long.csv - Matched accelerometer and observed behavior data from the vectronic accelerometer in long format<br />
-* Obs_behaviorfinal.csv - the final observed behavior data in comma separated format<br />
-* Obs_behaviorfinal.xlsx - master observed behavior file.</p>
+<p><strong>Files</strong></p>
+<ul>
+<li>Durham - folder containing audio files, and transcriptiosn of animal behavior collected by Durham Norman<br />
+</li>
+<li>Ira - folder containing audio files, and transcription of animal behavior collected by Ira Parsons<br />
+</li>
+<li>Collar.obs.beh.csv - The master observed behavior file from both observers<br />
+</li>
+<li>Obs.vect.csv - Matched accelerometer and observed behavior data from the vectronic accelerometer<br />
+</li>
+<li>Obs.vect.long.csv - Matched accelerometer and observed behavior data from the vectronic accelerometer in long format<br />
+</li>
+<li>Obs_behaviorfinal.csv - the final observed behavior data in comma separated format<br />
+</li>
+<li>Obs_behaviorfinal.xlsx - master observed behavior file.</li>
+</ul>
 </div>
 <div id="soils-data" class="section level2 hasAnchor" number="3.10">
 <h2><span class="header-section-number">3.10</span> Soils data<a href="noble-grazing-ecology.html#soils-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Soil samples were collected using a 2 cycle powered drill provided by the NRI research staff to a depth of 8-10 inches. Samples were taken to the Mississippi State University <a href="http://extension.msstate.edu/agriculture/soils/soil-testing">Soil Lab</a> located in Bost Hall on February 4<sup>th</sup> for analysis.</p>
-<p><strong>Files</strong><br />
-* S_Report_AAA15320.pdf - Raw soil report from the Mississippi State soil lab<br />
-* Soil_report.xlsx - the excel workbook containing digitized data from the soil report.</p>
+<p><strong>Files</strong></p>
+<ul>
+<li>S_Report_AAA15320.pdf - Raw soil report from the Mississippi State soil lab<br />
+</li>
+<li>Soil_report.xlsx - the excel workbook containing digitized data from the soil report.</li>
+</ul>
 </div>
 <div id="vectronic" class="section level2 hasAnchor" number="3.11">
 <h2><span class="header-section-number">3.11</span> Vectronic<a href="noble-grazing-ecology.html#vectronic" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -453,30 +582,54 @@ Fax: 319-626-2238</p>
 <img src="Pictures/Vectronicfiles.jpg" alt="" />
 <p class="caption">Figure 3.15:  Data files collected using the Vectronic GPS tracking collars deployed on grazing stears at the Noble Research Institute</p>
 </div>
-<p><strong>Files</strong> Figure <a href="noble-grazing-ecology.html#fig:vectfiles">3.15</a><br />
-* Acc_data - Raw accelerometer data exported using the Acceleration Data Veiwer in the Resources folder<br />
-* Acc_data_organized - Folder containing organized by animal. Use this folder for raw data.<br />
-* Activity_data - Activity data captured using the accelerometer and exported using the Acceleration data viewer software in the resources -&gt; Acceleration Data Veiwer folder<br />
-* Backup - Folder with Backup set up files fo the collars and backup data<br />
-* Calibration - Calibration data from setting up a few collars at the beginning of the trial<br />
-* Collar Info - Collar registration and information keys used to set up collars prior to data collection. Necessary for collar reset<br />
-* Collar_exp - Export of collar data files<br />
-* Collar_testing - Collar testing files from making sure collars worked prior to deployment in Febraury 2020<br />
-* Cool_vect_vids - File with vectronic collar videos collected by the video camera on the collars<br />
-* FIWI_data_organized - folder with FIWI rumen bolus data organized by collar and animal<br />
-* FIWI_rHR - Folder with FIWI resting heart rate data<br />
-* FIWI_RT - Folder with FIWI recorded rumen temperature bolus data<br />
-* GPS_data - folder with GPS location data for each animal<br />
-* GUI_usp - Folder with the software to set up collars<br />
-* Resources - Folder with manuals, software, and other important collar info.<br />
-* RIT_data - Folder with unorganized rumen temperature information.<br />
-* Rumen_bolus_temp - Rumen bolus temperature from a few collars.<br />
-* Signal_quality - Folder with signal quality information<br />
-* ZachJohnson_data - Folder containing datafiles downloaded and shared by Vectronic after shipping to Germany and processed by their lab technition<br />
-* 1.1 - Calibration data match.R - match observed data with vectronci acceleration data<br />
-* Acc Clean and Save files.r - Process accelerometer data into structured datasets<br />
-* Collar GPS accuracy.pdf - Copy of email concerning the longterm accuracy of a GPS location collar<br />
-* USDA_AFRI_PDF_video_list.xlsx - A comprehensive list of all the 15 second video files collected by the Vectronic collars. Saved on an external hard drive supplied by the Vectronic lab personell.</p>
+<p><strong>Files</strong> Figure <a href="noble-grazing-ecology.html#fig:vectfiles">3.15</a></p>
+<ul>
+<li>Acc_data - Raw accelerometer data exported using the Acceleration Data Veiwer in the Resources folder<br />
+</li>
+<li>Acc_data_organized - Folder containing organized by animal. Use this folder for raw data.<br />
+</li>
+<li>Activity_data - Activity data captured using the accelerometer and exported using the Acceleration data viewer software in the resources -&gt; Acceleration Data Veiwer folder<br />
+</li>
+<li>Backup - Folder with Backup set up files fo the collars and backup data<br />
+</li>
+<li>Calibration - Calibration data from setting up a few collars at the beginning of the trial<br />
+</li>
+<li>Collar Info - Collar registration and information keys used to set up collars prior to data collection. Necessary for collar reset<br />
+</li>
+<li>Collar_exp - Export of collar data files<br />
+</li>
+<li>Collar_testing - Collar testing files from making sure collars worked prior to deployment in Febraury 2020<br />
+</li>
+<li>Cool_vect_vids - File with vectronic collar videos collected by the video camera on the collars<br />
+</li>
+<li>FIWI_data_organized - folder with FIWI rumen bolus data organized by collar and animal<br />
+</li>
+<li>FIWI_rHR - Folder with FIWI resting heart rate data<br />
+</li>
+<li>FIWI_RT - Folder with FIWI recorded rumen temperature bolus data<br />
+</li>
+<li>GPS_data - folder with GPS location data for each animal<br />
+</li>
+<li>GUI_usp - Folder with the software to set up collars<br />
+</li>
+<li>Resources - Folder with manuals, software, and other important collar info.<br />
+</li>
+<li>RIT_data - Folder with unorganized rumen temperature information.<br />
+</li>
+<li>Rumen_bolus_temp - Rumen bolus temperature from a few collars.<br />
+</li>
+<li>Signal_quality - Folder with signal quality information<br />
+</li>
+<li>ZachJohnson_data - Folder containing datafiles downloaded and shared by Vectronic after shipping to Germany and processed by their lab technition<br />
+</li>
+<li>1.1 - Calibration data match.R - match observed data with vectronci acceleration data<br />
+</li>
+<li>Acc Clean and Save files.r - Process accelerometer data into structured datasets<br />
+</li>
+<li>Collar GPS accuracy.pdf - Copy of email concerning the longterm accuracy of a GPS location collar<br />
+</li>
+<li>USDA_AFRI_PDF_video_list.xlsx - A comprehensive list of all the 15 second video files collected by the Vectronic collars. Saved on an external hard drive supplied by the Vectronic lab personell.</li>
+</ul>
 </div>
 <div id="WOW" class="section level2 hasAnchor" number="3.12">
 <h2><span class="header-section-number">3.12</span> WOW<a href="noble-grazing-ecology.html#WOW" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -484,21 +637,35 @@ Fax: 319-626-2238</p>
 <img src="Pictures/WOW_files.jpg" alt="" />
 <p class="caption">Figure 3.16:  Files collected and calculated from the Walk-over-Weigh system located in the Grazing Ecology Pasture</p>
 </div>
-<p><strong>files</strong> Figure <a href="noble-grazing-ecology.html#fig:wowfiles">3.16</a><br />
-* csv_modoutput - Folder with model outputs from data processing files, look in rscript<br />
-* csv_output - Folder with cleaned data. See rscript code for methods to produce data<br />
-* cusum_csv - Folder containing results from cusum statistical process control tests<br />
-* References - Folder containing relevant literature pertaining to this system and cleaning the data
-* Reports - Reports produced throughout the study. May be usefull if digging into the wow data and concerned about potential issues.<br />
-* scale.validation - Folder containing the raw reports of methods used to calibrate the scale<br />
-* source_data - The raw data downloaded directly from the WOW systems. This is the rawest form of the data, and is untouched.<br />
-* source_meta - Folder containing important files linking cattle EID’s with VIDs, and chute weights<br />
-* 1WOW_DataPrep.R - First rscript<br />
-* 2ADGcalculator_period length.R - Second rscript<br />
-* 3spc_cusum chart.R - create a cusum chart to see if weights are out of control<br />
-* 4spc_cusum_data_cleaning.R - remove data out of control<br />
-* 5spc_ADG_cusum filtered.R - Check adg after removing out of control data points<br />
-* WOW.r - Combined code</p>
+<p><strong>files</strong> Figure <a href="noble-grazing-ecology.html#fig:wowfiles">3.16</a></p>
+<ul>
+<li>csv_modoutput - Folder with model outputs from data processing files, look in rscript<br />
+</li>
+<li>csv_output - Folder with cleaned data. See rscript code for methods to produce data<br />
+</li>
+<li>cusum_csv - Folder containing results from cusum statistical process control tests<br />
+</li>
+<li>References - Folder containing relevant literature pertaining to this system and cleaning the data</li>
+<li>Reports - Reports produced throughout the study. May be usefull if digging into the wow data and concerned about potential issues.<br />
+</li>
+<li>scale.validation - Folder containing the raw reports of methods used to calibrate the scale<br />
+</li>
+<li>source_data - The raw data downloaded directly from the WOW systems. This is the rawest form of the data, and is untouched.<br />
+</li>
+<li>source_meta - Folder containing important files linking cattle EID’s with VIDs, and chute weights<br />
+</li>
+<li>1WOW_DataPrep.R - First rscript<br />
+</li>
+<li>2ADGcalculator_period length.R - Second rscript<br />
+</li>
+<li>3spc_cusum chart.R - create a cusum chart to see if weights are out of control<br />
+</li>
+<li>4spc_cusum_data_cleaning.R - remove data out of control<br />
+</li>
+<li>5spc_ADG_cusum filtered.R - Check adg after removing out of control data points<br />
+</li>
+<li>WOW.r - Combined code</li>
+</ul>
 
 </div>
 </div>
@@ -577,20 +744,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
